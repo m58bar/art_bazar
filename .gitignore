@@ -1,0 +1,25 @@
+
+# Добавить в .gitignore исключения
+echo ".DS_Store" >> .gitignore
+echo ".idea/" >> .gitignore
+echo "__pycache__/" >> .gitignore
+
+# Добавить .gitignore в индекс
+git add .gitignore
+
+# Добавить остальные файлы в индекс
+git add .
+
+# Сделать коммит
+git commit -m "Initial commit"
+
+.DS_Store
+.idea/
+__pycache__/
+
+
+.DS_Store
+.idea/
+__pycache__/
+
+
